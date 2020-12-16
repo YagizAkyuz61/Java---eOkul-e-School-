@@ -10,7 +10,7 @@ public class SchoolMain {
         int Id, TC, Math, Physics, Database, Mobile, Average, Gender;
         String Name;
 
-        String url = "jdbc:sqlite:C:\\Users\\akyz6\\OneDrive\\Masaüstü\\DOSYALAR\\Kodlamalar\\JavaGUI\\kaldiGectiDB\\src\\SqliteDB332JAR\\eokul.db";
+        String url = "jdbc:sqlite:DB_path";
         Connection connection = null;
 
         try {
